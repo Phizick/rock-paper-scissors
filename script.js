@@ -135,10 +135,10 @@ Ball.prototype.update = function() {
 
 
   function loop() {
-    ctx.fillStyle = 'rgba(0, 0, 0, 0.85)';
+    ctx.fillStyle = 'rgba(0, 0, 0, 0.45)';
     ctx.fillRect(0, 0, width, height);
   
-    while (balls.length < 150) {
+    while (balls.length < 250) {
       let ball = new Ball(
         random(0,width),
         random(0,height),
