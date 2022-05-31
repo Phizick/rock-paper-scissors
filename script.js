@@ -15,9 +15,9 @@ function random(min, max) {
 
 
 
-function randomRGB() {
-  return `rgb(${random(0, 3)},${random(0, 3)},${random(0, 3)})`;
-}
+// function randomRGB() {
+//   return `rgb(${random(0, 3)},${random(0, 3)},${random(0, 3)})`;
+// }
 
 
 function Ball(x, y, velX, velY, color, size) {
@@ -37,7 +37,7 @@ function Ball(x, y, velX, velY, color, size) {
     ctx.fill();
   }
 
-var testBall = new Ball(50, 100, 4, 4, 'blue', 10);
+let testBall = new Ball(50, 100, 4, 4, 'blue', 10);
 testBall.x
 testBall.size
 testBall.color
