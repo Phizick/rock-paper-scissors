@@ -37,11 +37,11 @@ function Ball(x, y, velX, velY, color, size) {
     ctx.fill();
   }
 
-let testBall = new Ball(50, 100, 4, 4, 'blue', 10);
-testBall.x
-testBall.size
-testBall.color
-testBall.draw()
+// let testBall = new Ball(50, 100, 4, 4, 'blue', 10);
+// testBall.x
+// testBall.size
+// testBall.color
+// testBall.draw()
 
 Ball.prototype.update = function() {
     if ((this.x + this.size) >= width) {
